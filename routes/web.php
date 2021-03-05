@@ -16,10 +16,10 @@ Route::get('home', function () {
 Route::get('client-regis', function () {
     return view('clients.register');
 });
-Route::get('special/login/form/!for/gsi/!members', function () {
+Route::get('special/login/form/!for/!members', function () {
     return view('auth.custom-login');
 });
-Route::get('special/register/form/!for/gsi/!members', function () {
+Route::get('special/register/form/!for/!members', function () {
     return view('auth.custom-register');
 });
 
